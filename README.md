@@ -23,7 +23,7 @@ hard to use this plugin, since only `<plug>(SynStack)` is exposed.
 When `<plug>(SynStack)` is called, all of the highlight groups under the cursor
 are displayed from "highest" to "lowest" with the proper coloration. Since
 "higher" highlight groups overwrite "lower" highlight groups, the arrows point
-from right-to-left and the "highest" and most important group is on the left. In
+from right to left and the "highest" and most important group is on the left. In
 the above picture, `vimString` is the highest highlight group and, therefore,
 determines the foreground color for the group under the cursor.
 
